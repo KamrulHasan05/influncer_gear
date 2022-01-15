@@ -36,6 +36,7 @@ li {
 
 .d-flex {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .space-between {
@@ -55,7 +56,7 @@ li {
 
 /* Header Start */
 header {
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 header a {
@@ -152,7 +153,7 @@ header a {
 }
 
 .banner-left p {
-    margin: 16px 0;
+    margin: 16px 0 25px;
 }
 
 .banner-left a {
@@ -233,3 +234,80 @@ header a {
 }
 
 /* Banner Part End */
+
+/* Badge Logo Start */
+.badge-logo {
+    padding-bottom: 50px;
+}
+
+.badge-logo-img {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.badge-img {}
+
+.badge-img img {}
+
+.badge-logo hr {
+    border: none;
+    border-top: 1px solid #a39f9f6b;
+}
+
+/* Badge Logo End */
+/* collection Start */
+.collections {
+    padding: 50px 0 100px;
+}
+
+.collection {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: space-evenly;
+}
+
+.collection-item {
+    max-width: 330px;
+    padding: 20px 14px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.collection-item img {
+    width: 100%;
+    height: 256px;
+}
+
+.item-content h2 {
+    color: #18191F;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+.item-content h4 {
+    font-family: 'Manrope', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.star-icon {
+    margin-bottom: 10px;
+}
+
+.star-icon i {
+    color: #FB8200;
+}
+
+.star-icon span {
+    margin-left: 5px;
+}
+
+/* collection End */
