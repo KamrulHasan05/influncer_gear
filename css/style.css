@@ -1,0 +1,33 @@
+/* Font Cdn */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Poppins:wght@400;500;700&display=swap');
+
+/* Common Css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gray-color: #6C6C6C;
+    --black-color: #18191F;
+    --white-color: #ffffff;
+    --razzmatazz-color: #E02C6D;
+}
+
+body {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
